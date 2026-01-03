@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  overflow: auto;
+}
+h1{
+  color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 399;
+}
+.text-white{
+  color: green;
+}
+.cta{
+  background: aqua;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* DOM part 2 */
+.main-box{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.box{
+  background: aquamarine;
+  text-align: center;
+  margin: 15px 15px;
+  padding: 25px 25px;
+  width: 200px;
+  font-size: large;
+  border-radius: 20px;
+}
+.hero{
+  background: aquamarine;
+  padding: 40px 20px;
+  text-align: center;
+}
+.hero h1{
+  color: blueviolet;
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+button{
+    display: block;
+    background: hotpink;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+ul{
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 10%;
+}

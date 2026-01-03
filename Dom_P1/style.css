@@ -1,0 +1,35 @@
+*, *::after, *::before{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ box-sizing: border-box;
+}
+#menu ul{
+  margin-top: 10px;
+  text-align: center;
+}
+#menu li{
+  border: 2px solid transparent;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 0px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+}
+.red{
+  background: red;
+}
+.green{
+  background: green;
+}
+.blue{
+  background: blue;
+}
+.pink{
+  background: pink;
+}
+.purple{
+  background: purple;
+}

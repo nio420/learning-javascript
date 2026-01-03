@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, *::before, *::after{
+  /* padding: 0;
+  margin: 0; */
+  box-sizing: border-box;
+}
+body{
+  background: none no-repeat scroll 0 1;
+  line-height: 1.5em;
+  font-weight: 400;
+  font-size: 15px;
+}
+.tracking-system{
+  width: 100%;
+  clear: both;
+  padding: 45px 0;
+}
+.inner-tracking-main, .innder-tracking-title{
+  width: 98%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+.innder-tracking-title h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  word-wrap: normal;
+  word-spacing: 2;
+}
+.inner-tracking-main{
+  display: flex;
+}
+.child-tracking{
+  background: paleturquoise;
+  width: 25%;
+  margin: 0 1% 10px;
+  padding: 30px 25px;
+  border-radius: 15px;
+}
+.child-tracking:nth-child(2){
+  background: silver;
+}
+.child-tracking:nth-child(3){
+  background: goldenrod;
+}
+.child-tracking:nth-child(4){
+  background: lawngreen;
+}
+.child-tracking i{
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.child-tracking h5{
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+.child-tracking p{
+  margin: 0px;
+}

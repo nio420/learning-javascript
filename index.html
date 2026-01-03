@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+
+  body{
+    text-align: center;
+  }
+  img {
+    width: 500px;
+  }
+  button {
+    background: red;
+    color: #fff;
+    padding: 10px 29px;
+    font-size: 22px;
+    font-weight: normal;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  button:hover{
+    background: blue;
+  }
+/* form */
+#form{
+  width: 90%;
+  padding: 3%;
+}
+#form label{
+  display: block;
+  text-align: left;
+}
+#form input{
+  width: 90%;
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#form button{
+  width: 30%;
+}
+ul{
+  text-align: left;
+}
+</style>
+<body onscroll="onScroll(text2)">
+  <h1 id="title">hello maya</h1>
+  <button id="btn">save</button>
+  <h2 id="text"></h2>
+  <button id="like" onmouseenter="like()"><i class="fa-regular fa-thumbs-up"></i>Like</button>
+
+  <button id="like" ondblclick="like()"><i class="fa-regular fa-thumbs-up"></i>Like</button>
+
+  <button id="like" ondblclick="like()"><i class="fa-regular fa-thumbs-up"></i>Like</button>
+
+<!-- form for js -->
+ <h1 id="text2"></h1>
+ <form action="" id="form" onkeyup="keyPress();">
+  <label for="email">Email</label>
+  <input type="email" placeholder="enter the email">
+  <label for="password">Password</label>
+  <input type="password" placeholder="enter the password">
+  <button id="btn_2">Submit</button>
+ </form>
+
+ <ul id="ul">
+  <li id="li">home</li>
+  <li>home</li>
+  <li>home</li>
+  <li>home</li>
+ </ul>
+
+<!-- ludo making practice -->
+ <img id="ludo" onclick="rollDice ()" src="" alt="ludo"> <br>
+ <button id="btn">Roll dice</button><br>
+
+ <h1 id="title"></h1>
+ <button class="btn">subscribe</button>
+
+ <!-- IIFE JS -->
+  <h2 class="h2">hello javascript</h2>
+  <h3 class="h3">practice javascript</h3>
+
+  <script src="Async_Await.js"></script>
+</body>
+</html>
